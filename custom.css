@@ -1,0 +1,31 @@
+/* =========================================
+   BOOKINGCENTER CSS TEST FILE
+   PURPOSE: Show EXACTLY where CSS applies
+   ========================================= */
+
+/* Make ALL text very obvious */
+body, td, th, div, span, p, a {
+    font-family: "Comic Sans MS", cursive !important;
+    color: #ff0000 !important;
+}
+
+/* Bright background so you can't miss it */
+body {
+    background-color: #ffff99 !important;
+}
+
+/* Buttons stand out */
+button, 
+input[type="submit"], 
+input[type="button"] {
+    background-color: #00ff00 !important;
+    color: #000000 !important;
+    border: 2px solid #000000 !important;
+}
+
+/* Inputs stand out too */
+input, select, textarea {
+    background-color: #ccffff !important;
+    color: #000000 !important;
+    border: 2px solid #0000ff !important;
+}
